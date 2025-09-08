@@ -1,0 +1,38 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: playlist_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: playlist_db
+      MYSQL_USER: playlist_user
+      MYSQL_PASSWORD: playlist_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db/mysql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    command: --default-authentication-plugin=mysql_native_password
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 5
+      interval: 10s
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: playlist_clickhouse
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+    environment:
+      CLICKHOUSE_DB: playlist_analytics
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: ""
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+
+volumes:
+  mysql_data:
+  clickhouse_data:

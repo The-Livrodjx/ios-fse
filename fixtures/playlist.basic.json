@@ -1,0 +1,129 @@
+{
+  "id": "37i9dQZF1DX0XUsuxWHRQd",
+  "name": "RapCaviar",
+  "owner": {
+    "id": "spotify"
+  },
+  "snapshot_id": "abc123",
+  "tracks": {
+    "items": [
+      {
+        "added_at": "2023-09-01T12:00:00Z",
+        "added_by": {
+          "id": "spotify"
+        },
+        "track": {
+          "id": "4iV5W9uYEdYUVa79Axb7Rh",
+          "name": "money trees",
+          "duration_ms": 384000,
+          "explicit": true,
+          "popularity": 85,
+          "artists": [
+            {
+              "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+              "name": "Kendrick Lamar",
+              "popularity": 92,
+              "followers": {
+                "total": 15000000
+              }
+            }
+          ],
+          "album": {
+            "id": "4eLPsYPBmXABThSJ821sqY",
+            "name": "good kid, m.A.A.d city",
+            "release_date": "2012-10-22",
+            "album_type": "album",
+            "artists": [
+              {
+                "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                "name": "Kendrick Lamar",
+                "popularity": 92,
+                "followers": {
+                  "total": 15000000
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "added_at": "2023-09-01T12:05:00Z",
+        "added_by": {
+          "id": "spotify"
+        },
+        "track": {
+          "id": "7qiZfU4dY1lWllzX7mPBI3",
+          "name": "Shape of You",
+          "duration_ms": 233713,
+          "explicit": false,
+          "popularity": 90,
+          "artists": [
+            {
+              "id": "6eUKZXaKkcviH0Ku9w2n3V",
+              "name": "Ed Sheeran",
+              "popularity": 88,
+              "followers": {
+                "total": 85000000
+              }
+            }
+          ],
+          "album": {
+            "id": "3T4tUhGYeRNVUGevb0wThu",
+            "name": "÷ (Deluxe)",
+            "release_date": "2017-03-03",
+            "album_type": "album",
+            "artists": [
+              {
+                "id": "6eUKZXaKkcviH0Ku9w2n3V",
+                "name": "Ed Sheeran",
+                "popularity": 88,
+                "followers": {
+                  "total": 85000000
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "added_at": "2023-09-01T12:10:00Z",
+        "added_by": {
+          "id": "user123"
+        },
+        "track": {
+          "id": "1mea3bSkSGXuIRvnydlB5b",
+          "name": "Blinding Lights",
+          "duration_ms": 200040,
+          "explicit": false,
+          "popularity": 95,
+          "artists": [
+            {
+              "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+              "name": "The Weeknd",
+              "popularity": 94,
+              "followers": {
+                "total": 45000000
+              }
+            }
+          ],
+          "album": {
+            "id": "4qZBW3f2Q8y0k1A84d4iAO",
+            "name": "After Hours",
+            "release_date": "2020-03-20",
+            "album_type": "album",
+            "artists": [
+              {
+                "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                "name": "The Weeknd",
+                "popularity": 94,
+                "followers": {
+                  "total": 45000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

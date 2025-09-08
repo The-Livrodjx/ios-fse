@@ -1,0 +1,55 @@
+{
+  "audio_features": [
+    {
+      "id": "4iV5W9uYEdYUVa79Axb7Rh",
+      "danceability": 0.757,
+      "energy": 0.298,
+      "key": 1,
+      "loudness": -6.426,
+      "mode": 0,
+      "speechiness": 0.168,
+      "acousticness": 0.00187,
+      "instrumentalness": 0.00000322,
+      "liveness": 0.0898,
+      "valence": 0.334,
+      "tempo": 144.041,
+      "type": "audio_features",
+      "duration_ms": 384000,
+      "time_signature": 4
+    },
+    {
+      "id": "7qiZfU4dY1lWllzX7mPBI3",
+      "danceability": 0.825,
+      "energy": 0.652,
+      "key": 1,
+      "loudness": -3.183,
+      "mode": 1,
+      "speechiness": 0.0802,
+      "acousticness": 0.581,
+      "instrumentalness": 0.0,
+      "liveness": 0.0931,
+      "valence": 0.931,
+      "tempo": 95.977,
+      "type": "audio_features",
+      "duration_ms": 233713,
+      "time_signature": 4
+    },
+    {
+      "id": "1mea3bSkSGXuIRvnydlB5b",
+      "danceability": 0.514,
+      "energy": 0.73,
+      "key": 1,
+      "loudness": -5.934,
+      "mode": 1,
+      "speechiness": 0.0598,
+      "acousticness": 0.00146,
+      "instrumentalness": 0.000249,
+      "liveness": 0.0897,
+      "valence": 0.33,
+      "tempo": 171.005,
+      "type": "audio_features",
+      "duration_ms": 200040,
+      "time_signature": 4
+    }
+  ]
+}
